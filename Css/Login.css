@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../Image/wholebodybackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+}
+
+#loginpanel{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 700px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: inset 0 0 10px #000000;
+}
+#pageLogo{
+    width: 250px;
+    height:250px;
+    position: relative;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-00%);
+}
+#loginInfo{
+    width: 250px;
+    height:250px;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-00%);
+}
+#username{
+    width: 240px;
+    height:30px;
+    border-radius: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+#password{
+    width: 240px;
+    height:30px;
+    border-radius: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+#loginbutton{
+    margin-top: 40px;
+    text-align: center;
+}
+#extra{
+    position: relative;
+    top: 10%;
+    left: 0%;
+    text-align: center;
+    color: black;
+}

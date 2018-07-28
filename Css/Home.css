@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../Image/wholebodybackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+}
+
+#chatPanel{
+    right:0px;
+    bottom:0px;
+    position: absolute;
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    visibility: visible;
+}
+
+#chatIcon{
+    position: fixed;
+    width:80px;
+    height:80px;
+    left:90%;
+    top:85%;
+    cursor: pointer;
+    visibility:hidden  ;
+}
+
+#extraSpace{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 0px;
+    transform: translate(0%,100%);
+}
+
+#comments{
+    width: 280px;
+    height:35px;
+    border-radius: 5px;
+    margin-right: 4px;
+    margin-left: 2px;
+}
+
+#chatNav{
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(153, 153, 255);
+    height: 40px;
+}
+#showChat{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin:8px;
+    height: 300px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+#sendChat{
+    margin-left: 5px;
+}
+
+#logoutIcon{
+    cursor: pointer;
+    right:20px;
+    top:20px;
+    position: fixed;
+}
+#logoutText{
+    opacity :0.0;
+    -webkit-transition: opacity 2s;
+    transition: opacity 2s;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}

@@ -1,4 +1,4 @@
-$(function(){
+    $(function(){
 
     var flag=0;
 
@@ -86,6 +86,11 @@ $(function(){
             e.preventDefault();
         }
     });
+
+    $("#canclebutton").click(function(){
+		
+		window.location.href="../App/Login.php"
+	});
     
     $("#extraSpace").css("top",$("#registrationpanel").css("height"));
 

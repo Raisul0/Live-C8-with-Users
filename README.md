@@ -1,5 +1,6 @@
 # Live-C8-with-Users
-This is a project to Test Out the Live chatting option with All Users
+This is a project to Test Out the Live chatting option with All Users.
+Work's with Chrome.
 
 
 Name The Root Foolder "For Live c8"
